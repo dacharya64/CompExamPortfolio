@@ -1066,3 +1066,12 @@ div label[for=ui-component-toggle__yearly] {
   }
 
 }
+
+figcaption {
+  font-weight: bold;
+  text-align: center;
+}
+
+code { white-space: pre; 
+    white-space: pre-wrap;
+    }
