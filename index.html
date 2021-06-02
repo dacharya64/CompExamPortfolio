@@ -25,25 +25,40 @@
     <link rel="preload" as="style" href="style.css">
     <link rel="stylesheet" href="style.css">
     <!-- TITLE -->
-    <title>Devi Acharya</title>
+    <title>Devi Acharya's Portfolio</title>
   </head>
-  <body>
+  <body>    
     <header role="banner" class="ui-section-header">
       <div class="ui-layout-container">
         <div class="ui-section-header__layout ui-layout-flex">
           <!-- LOGO -->
-          <div class="ui-section-header--logo">
+            <div class="ui-section-header--logo">
             <strong>Devi Acharya's Portfolio</strong>
             <hr>
           </div>
+          <!-- HAMBURGER -->
+          <input type="checkbox" id="ui-section-header--menu-id">
+          <label for="ui-section-header--menu-id" class="ui-section-header--menu-icon"></label>
+          <!-- MENU -->
+          <nav role="navigation" class="ui-section-header--nav ui-layout-flex">
+            <a href="index.html" role="link" aria-label="#" class="ui-section-header--nav-link">Projects</a>
+            <a href="cv.html" role="link" aria-label="#" class="ui-section-header--nav-link">Publications</a>
+          </nav>
         </div>
       </div>
     </header>
     <main role="main">
+    <section class="ui-section-hero">
+        <div class="ui-layout-container">
+            <div>
+              <h1>Projects</h1>
+              <hr>
+            </div>
+        </div>
+      </section>
       <section class="ui-section-feature">
         <div class="ui-layout-container">
           <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
-            <!-- FEATURE -->
             <div>
               <h2>Prototyping a Game Master Digital Assistant</h2>
               <p class="ui-text-intro">Over the last year, I have been interviewing game masters (GMs) of tabletop roleplaying games (TTRPGs) about their process preparing for and running their games, with a focus on how they facilitate collaborative storytelling. I’m interested in better understanding the GMing process in order to help inform the creation of computational tools to help support GMs running TTRPGs. Here I discuss the creation process for a prototype of a computational support tool for GMs, informed by this interview process.</p>
@@ -62,7 +77,7 @@
               <h2>Science Internship Program: Virtual Reality / Physical Escape Room</h2>
               <p class="ui-text-intro">I co-mentored a research project as part of the Science Internship Program in which we created an escape room that featured puzzles using both physical and virtual reality (VR) space. One escape room participant wears a virtual reality headset and can only see and interact with the virtual space. The other participant can only see the physical room and space. Working together with asymmetric information, both participants have to communicate with one another to solve puzzles and escape the room together. This project was an experiment in how to create asymmetric but cooperative puzzle-solving and studying the affordances of physical and virtual spaces.</p>
               <div class="ui-component-cta ui-layout-flex">
-                <a href="#" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">See more</a>
+                <a href="escaperoom.html" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">See more</a>
               </div>
             </div>
             <!-- IMAGE -->

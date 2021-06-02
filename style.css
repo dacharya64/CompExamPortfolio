@@ -1075,3 +1075,7 @@ figcaption {
 code { white-space: pre; 
     white-space: pre-wrap;
     }
+
+    li{
+  margin-bottom: 10px;
+}
